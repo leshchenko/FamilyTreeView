@@ -13,6 +13,11 @@
 		CC1197022248D79000709A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1197012248D79000709A0F /* Assets.xcassets */; };
 		CC1197052248D79000709A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1197032248D79000709A0F /* LaunchScreen.storyboard */; };
 		CC1197082248D79000709A0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1197072248D79000709A0F /* main.m */; };
+		CC1197182248D90D00709A0F /* ConnectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC11970F2248D90C00709A0F /* ConnectionModel.m */; };
+		CC1197192248D90D00709A0F /* ImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1197122248D90C00709A0F /* ImageData.m */; };
+		CC11971A2248D90D00709A0F /* CircularImageWithTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1197132248D90C00709A0F /* CircularImageWithTitle.m */; };
+		CC11971B2248D90D00709A0F /* CircularImageWithTitle.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1197142248D90C00709A0F /* CircularImageWithTitle.xib */; };
+		CC11971C2248D90D00709A0F /* FamilyTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1197162248D90C00709A0F /* FamilyTreeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		CC1197042248D79000709A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1197062248D79000709A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC1197072248D79000709A0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC11970F2248D90C00709A0F /* ConnectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionModel.m; sourceTree = "<group>"; };
+		CC1197102248D90C00709A0F /* ConnectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionModel.h; sourceTree = "<group>"; };
+		CC1197112248D90C00709A0F /* FamilyTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyTreeView.h; sourceTree = "<group>"; };
+		CC1197122248D90C00709A0F /* ImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageData.m; sourceTree = "<group>"; };
+		CC1197132248D90C00709A0F /* CircularImageWithTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularImageWithTitle.m; sourceTree = "<group>"; };
+		CC1197142248D90C00709A0F /* CircularImageWithTitle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircularImageWithTitle.xib; sourceTree = "<group>"; };
+		CC1197152248D90C00709A0F /* CircularImageWithTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularImageWithTitle.h; sourceTree = "<group>"; };
+		CC1197162248D90C00709A0F /* FamilyTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyTreeView.m; sourceTree = "<group>"; };
+		CC1197172248D90D00709A0F /* ImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 		CC1196F72248D78F00709A0F /* FamilyTreeView */ = {
 			isa = PBXGroup;
 			children = (
+				CC11970E2248D8AA00709A0F /* FamilyTree */,
 				CC1196F82248D78F00709A0F /* AppDelegate.h */,
 				CC1196F92248D78F00709A0F /* AppDelegate.m */,
 				CC1196FB2248D78F00709A0F /* ViewController.h */,
@@ -69,6 +84,22 @@
 				CC1197072248D79000709A0F /* main.m */,
 			);
 			path = FamilyTreeView;
+			sourceTree = "<group>";
+		};
+		CC11970E2248D8AA00709A0F /* FamilyTree */ = {
+			isa = PBXGroup;
+			children = (
+				CC1197152248D90C00709A0F /* CircularImageWithTitle.h */,
+				CC1197132248D90C00709A0F /* CircularImageWithTitle.m */,
+				CC1197142248D90C00709A0F /* CircularImageWithTitle.xib */,
+				CC1197102248D90C00709A0F /* ConnectionModel.h */,
+				CC11970F2248D90C00709A0F /* ConnectionModel.m */,
+				CC1197112248D90C00709A0F /* FamilyTreeView.h */,
+				CC1197162248D90C00709A0F /* FamilyTreeView.m */,
+				CC1197172248D90D00709A0F /* ImageData.h */,
+				CC1197122248D90C00709A0F /* ImageData.m */,
+			);
+			path = FamilyTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC1197052248D79000709A0F /* LaunchScreen.storyboard in Resources */,
+				CC11971B2248D90D00709A0F /* CircularImageWithTitle.xib in Resources */,
 				CC1197022248D79000709A0F /* Assets.xcassets in Resources */,
 				CC1197002248D78F00709A0F /* Main.storyboard in Resources */,
 			);
@@ -142,8 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC1196FD2248D78F00709A0F /* ViewController.m in Sources */,
+				CC1197182248D90D00709A0F /* ConnectionModel.m in Sources */,
 				CC1197082248D79000709A0F /* main.m in Sources */,
+				CC1197192248D90D00709A0F /* ImageData.m in Sources */,
 				CC1196FA2248D78F00709A0F /* AppDelegate.m in Sources */,
+				CC11971C2248D90D00709A0F /* FamilyTreeView.m in Sources */,
+				CC11971A2248D90D00709A0F /* CircularImageWithTitle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FamilyTreeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FamilyTreeView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
